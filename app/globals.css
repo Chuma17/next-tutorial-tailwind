@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  src: url('./lemon-milk-font/LemonMilkRegular-X3XE2.otf');
+  font-family: 'Lemon Milk';
+}
+
+@font-face {
+  src: url('./Montserrat/static/Montserrat-Regular.ttf');
+  font-family: 'Montserrat';
+}
+
+@font-face {
+  src: url('./Montserrat/static/Montserrat-ExtraBold.ttf');
+  font-family: 'Montserrat Extra Bold';
+}
+
+@font-face {
+  src: url('./Montserrat/static/Montserrat-Bold.ttf');
+  font-family: 'Montserrat Bold';
+}
+
+.topic-headers {
+  font-family: 'Montserrat Extra Bold';  
+}
+
+.section-headers {
+  font-family: 'Montserrat Bold';  
+}

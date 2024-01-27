@@ -1,0 +1,22 @@
+<svg width="170" height="160" viewBox="0 0 170 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 33" filter="url(#filter0_b_39_154)">
+<g id="course card" filter="url(#filter1_b_39_154)">
+<rect width="170" height="160" rx="15" fill="#3300FF" fill-opacity="0.03"/>
+<rect x="0.5" y="0.5" width="169" height="159" rx="14.5" stroke="black"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_39_154" x="-10" y="-10" width="190" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_39_154"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_39_154" result="shape"/>
+</filter>
+<filter id="filter1_b_39_154" x="-100" y="-100" width="370" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="50"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_39_154"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_39_154" result="shape"/>
+</filter>
+</defs>
+</svg>
